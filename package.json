@@ -1,10 +1,11 @@
 {
   "name": "react-native-template-zmj",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node node_modules/react-native/local-cli/cli.js start" ,
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,37 @@
   "bugs": {
     "url": "https://github.com/zmj2734/react-native-template-zmj/issues"
   },
-  "homepage": "https://github.com/zmj2734/react-native-template-zmj#readme"
+  "homepage": "https://github.com/zmj2734/react-native-template-zmj#readme",
+  "description": " 初始化模版 ",
+"dependencies": {
+   "from": "^0.1.7",
+    "import": "0.0.6",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.0",
+    "react-native-baidu-map": "^0.6.0",
+    "react-native-banner": "^0.1.0",
+    "react-native-camera": "^0.9.0",
+    "react-native-circle-button": "^1.0.6",
+    "react-native-fetch-blob": "^0.10.4",
+    "react-native-image-picker": "^0.26.3",
+    "react-native-image-progress": "^0.6.0",
+    "react-native-image-zoom-viewer": "^2.0.6",
+    "react-native-material-buttons": "^0.4.0",
+    "react-native-material-textfield": "^0.6.1",
+    "react-native-progress": "^3.2.0",
+    "react-native-smart-barcode": "^1.0.6",
+    "react-native-splash-screen": "^2.1.0",
+    "react-native-update": "^4.0.5",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.7"
+},
+"devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
 }
