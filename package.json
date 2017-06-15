@@ -1,0 +1,19 @@
+{
+  "name": "react-native-template-zmj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmj2734/react-native-template-zmj.git"
+  },
+  "author": "zmj2734",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmj2734/react-native-template-zmj/issues"
+  },
+  "homepage": "https://github.com/zmj2734/react-native-template-zmj#readme"
+}
